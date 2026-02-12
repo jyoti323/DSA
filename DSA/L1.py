@@ -12,3 +12,16 @@ print(firstMatrix)
 
 
 #traversal of matrix
+# fatching all elements of the matrix
+
+for i in range(rows):
+    for j in range(cols):
+        print(firstMatrix[i][j],end=" ")
+    print()
+
+#col - wise traversal of the matrix
+
+for i in range(cols):
+    for j in range(rows):
+        print(firstMatrix[j][i],end=" ")
+    print()
