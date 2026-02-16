@@ -11,9 +11,8 @@ for i in range(rows):
 
 #Secoundary diagonal: ro index+column=total no rows-1
 
-c=cols-1
 for i in range(rows):
-    print(matrix[i][c])
-    c-=1
+    print(matrix[i][rows-1-i])
+ 
 
 
